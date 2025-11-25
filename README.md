@@ -1,20 +1,20 @@
 ## A entrega desse exercício consiste em:
 
-
-- Criar um repositório no Github, por exemplo: curso_ebac_frontend;
-- Criar uma branch chamada exercicio_git no repositório recém-criado;
-- Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
-- Disponibilizar o link do repositório no portal do aluno. 
-
+- Criar um arquivo HTML que contenha um formulário de cadastro, com os campos nome, e-mail e senha e a existência de um botão para realizar o cadastro;
+- Adicionar também uma label para cada campo e referenciar essa label ao ID que será atribuido ao campo;
+- Enviar esse aquivo para o GitHub em uma branch chamada exercício_html;
+- Enviar o link para nossos tutores.
+- 
 ## Resolução:
 
-- Criado o repositorio *curso_ebac_frontend* localmente com o comando ``mkdir``; branch principal com o nome *"main"* através do comando ``git branch -m main`` (localmente);
-- Criada a branch *exercicio_git* localmente através do comando ``git branch exercicio_git``; trocada para a branch através o comando ``git checkout exercicio_git``;
-- Criado o arquivo *nome.txt* com meu nome completo dentro; O arquivo foi criado somente na branch exercicio_git;
-- Criado o repositorio com o mesmo nome (curso_ebac_frontend) no github; o push foi feito somente na branch exercicio_git;
+- Criada a branch dentro do repositorio *curso_ebac_frontend* diretamente no Github.
+- Criado o arquivo HTML com o formulário;
+- Criado as label's para cada campo e referenciado aos id's de cada campo;
+- Criado o botão para envio do formulário seguindo o exemplo;
+- Arquivo enviado para a branch.
 
 <div align="center">
-<img width="890" height="344" alt="Print do terminal" src="https://github.com/user-attachments/assets/cd8c3e35-70e1-446f-bcd9-6adf43a78fe1" />
+<img width="770" height="415" alt="print do formulário HTML" src="https://github.com/user-attachments/assets/94685eed-eaf5-44c3-ab01-c1c847c93311" />
 </div>
 
 Ps.: Estou amando o curso! Os professores são ótimos e as aulas são muito bem feitas.
