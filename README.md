@@ -4,7 +4,7 @@
 - Adicionar também uma label para cada campo e referenciar essa label ao ID que será atribuido ao campo;
 - Enviar esse aquivo para o GitHub em uma branch chamada exercício_html;
 - Enviar o link para nossos tutores.
-- 
+  
 ## Resolução:
 
 - Criada a branch dentro do repositorio *curso_ebac_frontend* diretamente no Github.
