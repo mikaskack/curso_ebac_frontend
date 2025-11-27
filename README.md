@@ -14,7 +14,7 @@
 - Arquivo enviado para a branch.
 
 <div align="center">
-<img width="770" height="415" alt="print do formulário HTML" src="https://github.com/user-attachments/assets/94685eed-eaf5-44c3-ab01-c1c847c93311" />
+<img width="724" height="394" alt="Print do formulario HTML" src="https://github.com/user-attachments/assets/9fe86570-baeb-410d-aaf2-70034cdae032" />
 </div>
 
 Ps.: Estou amando o curso! Os professores são ótimos e as aulas são muito bem feitas.
