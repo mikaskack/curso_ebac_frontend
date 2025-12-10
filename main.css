@@ -1,0 +1,195 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color:#f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.creation-date {
+    font-size: 10px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.container {
+    width: auto;
+    /*min-width: 1000px;*/
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sports {
+    background-color: #d7fad7;
+}
+
+#sports h2 {
+    color: #fff;
+    padding: 10px;
+    background-color: #417764;
+}
+
+#sports .articles article a {
+    background-color: #417764;
+    color: #fff;
+    
+}
+
+#sports .articles article a:hover {
+    background-color: #d7fad7;
+    color: #417764;
+}
+
+#economy {
+    background-color: #ffffc0;
+}
+
+#economy h2{
+    color: #fff;
+    padding: 10px;
+    background-color: #ffd95e;
+}
+
+#economy .articles article a {
+    background-color: #ffd95e;
+    color: #fff;
+}
+
+#economy .articles article a:hover {
+    background-color: #ffffc0;
+    color: #ffd95e;
+}
+
+#culture {
+    background-color: #faaea6;
+}
+
+#culture h2{
+    color: #fff;
+    padding: 10px;
+    background-color:#e35040;
+}
+
+#culture .articles article a{
+    background-color: #e35040;
+    color: #fff;
+}
+
+#culture .articles article a:hover{
+    background-color:#faaea6;
+    color: #e35040;
+}
+
+#tech {
+    background-color: #bcd4fc;
+}
+
+#tech h2{
+    color: #fff;
+    padding: 10px;
+    background-color: #4169e1;
+}
+
+#tech .articles article a{
+    background-color: #4169e1;
+    color: #fff;
+}
+
+#tech .articles article a:hover{
+    background-color: #bcd4fc;
+    color: #4169e1;
+}
+
+body > footer{
+    padding: 16px 0;
+    background-color: #2f3640;
+    color: #fff;
+}
+
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #2f3640;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    z-index: 9999;
+    cursor: pointer;
+}
