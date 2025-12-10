@@ -1,20 +1,21 @@
 ## A entrega desse exercício consiste em:
 
-
-- Criar um repositório no Github, por exemplo: curso_ebac_frontend;
-- Criar uma branch chamada exercicio_git no repositório recém-criado;
-- Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
-- Disponibilizar o link do repositório no portal do aluno. 
+- Criar mais duas seções no layout criado durante o módulo, exemplos: entretenimento e tecnologia, as novas [devem] seções conter outras notícias e diferentes cores.
+- Envie os arquivos para o Github em uma branch chamada *exercício_css* e enviar o link para o tutor.
 
 ## Resolução:
 
-- Criado o repositorio *curso_ebac_frontend* localmente com o comando ``mkdir``; branch principal com o nome *"main"* através do comando ``git branch -m main`` (localmente);
-- Criada a branch *exercicio_git* localmente através do comando ``git branch exercicio_git``; trocada para a branch através o comando ``git checkout exercicio_git``;
-- Criado o arquivo *nome.txt* com meu nome completo dentro; O arquivo foi criado somente na branch exercicio_git;
-- Criado o repositorio com o mesmo nome (curso_ebac_frontend) no github; o push foi feito somente na branch exercicio_git;
+- Dowload e edição dos arquivos baixados;
+- Colocadas novas imagens na pasta *./imagens*;
+- Editados os arquivos index.html e *main.css* com a adição de funcionalidades e estilização;
+- Criadas as novas seções de *Cultura* e *Tecnologia* com cores e botões;
+- Criado um botão para retorno ao topo da página usando svg;
+- Criada a branch *exercício-css*;
+- Editado o README.md com a atualização do exercício, resolução e imagens;
+- Enviados os arquivos do *Portal de Notícias*.
 
 <div align="center">
-<img width="890" height="344" alt="Print do terminal" src="https://github.com/user-attachments/assets/cd8c3e35-70e1-446f-bcd9-6adf43a78fe1" />
+<img width="1919" height="911" alt="print da tela do portal e do dev tools abertos" src="https://github.com/user-attachments/assets/256d0fde-54db-4210-8794-35d6499fd1fe" />
 </div>
 
 Ps.: Estou amando o curso! Os professores são ótimos e as aulas são muito bem feitas.
