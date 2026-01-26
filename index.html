@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Modulo 7</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+        <h1>Coloque dois números no formulário</h1>
+        <p>Insira um número no campo "A" e um outro número, maior que ele, no campo "B"!</p>
+        </div>
+        <form id="form-numbers">
+            <input id="number-a" type="number" required placeholder='Número A' />
+            <input id="number-b" type="number" required placeholder='Número B' />
+            <button type="submit">Enviar</button>
+            <button id="reset-button" type="reset">Limpar</button> <!--botão para resetar o formulário-->
+        </form>
+        <!-- Mensagens-->
+        <p class="error-message">
+            <span class="icon">❌</span>
+            <span class="text">Por favor, insira números válidos em ambos os campos.</span>
+        </p>
+        <p class="success-message">
+            <span class="icon">✅</span>
+            <span class="text">Sucesso! B (${numB}) é MAIOR que A (${numA}.)</span>
+        </p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
