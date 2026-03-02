@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    width: 600px;
+    margin: 40px auto;
+    display:grid;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;    
+    text-align: center;
+    text-decoration: underline 1px;
+    padding: 16px;
+    border-radius: 16px;
+    color: #F2BEA0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 32px;
+    display: block;
+
+    width: 480px;
+}
+
+.container li {
+    list-style: none;
+}
+
+.cadastrar-tarefa {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    place-items: center;
+    background-color: #A9C6D9;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.cadastrar-tarefa h2 { 
+    text-align: center;
+    padding-bottom: 8px;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#nome-tarefa {
+    padding-left: 8px;
+    height: 40px;
+    width: 300px;
+    font-display: black;
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: #A9C6D9;
+    grid-area: 2 / 1 / 3 /2;
+}
+
+#nome-tarefa::placeholder {
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+}
+
+#nome-tarefa:focus {
+    outline: none;
+    border-bottom: solid 2px black ;
+}
+
+#btn-cadastrar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    grid-area: 2 / 2 / 3 / 3;
+    border: none;
+    background-color: #B8D9C4;
+    font-weight: 600;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btn-cadastrar:hover {
+    background-color: #fff;
+}
+
+.lista-tarefas {
+    background-color: #A9C6D9;
+    padding: 16px;
+    border-radius: 8px;
+    display: none;
+}
+
+.lista-tarefas h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.linha-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: #bdbdbd;
+    margin: 16px 0;
+}
