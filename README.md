@@ -1,20 +1,17 @@
-## A entrega desse exercício consiste em:
+##Na tarefa deste módulo, você deve:
 
-
-- Criar um repositório no Github, por exemplo: curso_ebac_frontend;
-- Criar uma branch chamada exercicio_git no repositório recém-criado;
-- Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
-- Disponibilizar o link do repositório no portal do aluno. 
+1) Criar uma aplicação de lista de tarefas contendo um formulário com um campo para adicionar o nome da tarefa e um botão para cadastrar a tarefa.
+2) Ao submeter o formulário, adicione um elemento <li> dentro de uma lista ordenada ou não.
+3) Ao clicar nos itens da lista, adicione um efeito que aplique uma linha em cima do texto (text-decoration: line-through).
+4) Utilize o jQuery para manipular os elementos e controlar os eventos.
+5) Crie uma branch chamada exercício_jquery no repositório do curso e nos envie o link através da plataforma. 
 
 ## Resolução:
 
-- Criado o repositorio *curso_ebac_frontend* localmente com o comando ``mkdir``; branch principal com o nome *"main"* através do comando ``git branch -m main`` (localmente);
-- Criada a branch *exercicio_git* localmente através do comando ``git branch exercicio_git``; trocada para a branch através o comando ``git checkout exercicio_git``;
-- Criado o arquivo *nome.txt* com meu nome completo dentro; O arquivo foi criado somente na branch exercicio_git;
-- Criado o repositorio com o mesmo nome (curso_ebac_frontend) no github; o push foi feito somente na branch exercicio_git;
-
-<div align="center">
-<img width="890" height="344" alt="Print do terminal" src="https://github.com/user-attachments/assets/cd8c3e35-70e1-446f-bcd9-6adf43a78fe1" />
-</div>
-
-Ps.: Estou amando o curso! Os professores são ótimos e as aulas são muito bem feitas.
+- Criada a branch *exercicio_jquery*;
+- Formulário criado no HTML e estilizado no CSS;
+- Criadas as funções de submeter formulário adicionando um elemento <li> na listra não ordenada;
+- Criada a função de 'slideDown' da lista de tarefas quando submentemos as tarefas;
+- "Reset" do input;
+- Aplicação do estilo de texto "line-through" para os itens clicados na lista
+- Push dos arquivos na branch.
